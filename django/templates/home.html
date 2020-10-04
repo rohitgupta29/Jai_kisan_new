@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    This is my Home Page.
+
+    <h1>Welcome to Jai Kisan ,our beloved Crop Recommandation System.</h1>
+
+    <h3>Please Enter the data here.</h3>
+
+    <form action = "{% url 'result' %}" class = "container">
+
+    
+
+    Region:      <input type = "text" required name = "Region"><br><br>
+    Sowing Time: <input type = "text" required name = "Sowing Time"><br><br>
+    pH:          <input type = "text" required name = "pH"><br><br>
+    Soil Type:   <input type = "text" required name = "Soil Type"><br><br>
+
+    <input type = "Submit" name = "" value = "submit">
+
+    </form>
+    
+
+
+</body>
+</html>
